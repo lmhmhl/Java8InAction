@@ -6,10 +6,11 @@ package designPattern.templateMethod;
  * @author: LMH
  * @create: 2021-05-11
  **/
-public class Database {
+class Database {
 
-    public static Customer getCustomerWithId(int id) {
-        new designPattern.templateMethod.Customer(id);
-        return null;
+
+    static Customer getCustomerWithId(int id) {
+        Customer customer = new Customer(id);
+        return customer;
     }
 }

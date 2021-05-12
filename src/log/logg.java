@@ -14,8 +14,6 @@ import com.sun.org.slf4j.internal.LoggerFactory;
 
 public class logg {
     public static final Logger LOGGER = LoggerFactory.getLogger(logg.class);
-    Customer
-    abstracpattern.java
     public static void main(String[] args) {
         LOGGER.error("error");
     }

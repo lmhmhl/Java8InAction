@@ -8,7 +8,8 @@ package designPattern.templateMethod;
  **/
 abstract class OnlineBanking {
     public void processCustomer(int id) {
-        Customer c = Database.getCustomerWithId(id);
+        Database database = new Database();
+        Customer c = database.getCustomerWithId(id);
         makeCustomerHappy(c);
     }
 
