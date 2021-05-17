@@ -12,6 +12,7 @@ import java.util.Optional;
  * @create: 2021-05-11
  **/
 public class list {
+
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(3, 5, 1, 2, 6);
         numbers.sort(Comparator.naturalOrder());
